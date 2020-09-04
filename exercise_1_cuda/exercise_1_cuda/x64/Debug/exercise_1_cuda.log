@@ -1,0 +1,6 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Gabriel Lima\Documents\Github\exercise_1_cuda\exercise_1_cuda\exercise_1_cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Gabriel Lima\Documents\Github\exercise_1_cuda\exercise_1_cuda\exercise_1_cuda\kernel.cu" 
+  kernel.cu
+     Criando biblioteca C:\Users\Gabriel Lima\Documents\Github\exercise_1_cuda\exercise_1_cuda\x64\Debug\exercise_1_cuda.lib e objeto C:\Users\Gabriel Lima\Documents\Github\exercise_1_cuda\exercise_1_cuda\x64\Debug\exercise_1_cuda.exp
+  exercise_1_cuda.vcxproj -> C:\Users\Gabriel Lima\Documents\Github\exercise_1_cuda\exercise_1_cuda\x64\Debug\exercise_1_cuda.exe
